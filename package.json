@@ -8,6 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "start": "json-server --watch pokemon-data.json --port 3001",
     "start:json-server": "json-server --watch pokemon-data.json --port 3001"
   },
   "dependencies": {
