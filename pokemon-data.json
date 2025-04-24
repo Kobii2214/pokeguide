@@ -1,0 +1,55 @@
+{
+  "favorites": [],
+  "team": [],
+  "battles": [
+    {
+      "id": "514f",
+      "pokemon1": "venusaur",
+      "pokemon2": "squirtle",
+      "winner": "venusaur",
+      "date": "2025-04-23T15:10:04.206Z"
+    },
+    {
+      "id": "0129",
+      "pokemon1": "venusaur",
+      "pokemon2": "charizard",
+      "winner": "charizard",
+      "date": "2025-04-23T16:01:26.021Z"
+    },
+    {
+      "id": "70a8",
+      "pokemon1": "ivysaur",
+      "pokemon2": "charmander",
+      "winner": "ivysaur",
+      "date": "2025-04-23T16:01:35.627Z"
+    },
+    {
+      "id": "ef12",
+      "pokemon1": "bulbasaur",
+      "pokemon2": "ivysaur",
+      "winner": "ivysaur",
+      "date": "2025-04-23T16:04:11.338Z"
+    },
+    {
+      "id": "f65e",
+      "pokemon1": "bulbasaur",
+      "pokemon2": "ivysaur",
+      "winner": "ivysaur",
+      "date": "2025-04-23T16:06:05.612Z"
+    },
+    {
+      "id": "e0ee",
+      "pokemon1": "bulbasaur",
+      "pokemon2": "ivysaur",
+      "winner": "ivysaur",
+      "date": "2025-04-23T16:11:45.555Z"
+    },
+    {
+      "id": "d0c5",
+      "pokemon1": "bulbasaur",
+      "pokemon2": "ivysaur",
+      "winner": "ivysaur",
+      "date": "2025-04-23T16:15:32.910Z"
+    }
+  ]
+}
