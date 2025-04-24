@@ -10,7 +10,7 @@ const Favorite = () => {
   useEffect(() => {
     const fetchFavorites = async () => {
       try {
-        const response = await fetch("http://localhost:3001/favorites");
+        const response = await fetch("https://pokeguide.onrender.com/favorites");
         if (!response.ok) throw new Error("Failed to fetch favorites");
         const data = await response.json();
         setFavorites(data);
@@ -26,7 +26,7 @@ const Favorite = () => {
 
   const handleUnfavorite = async (pokemonId) => {
     try {
-      const response = await fetch(`http://localhost:3001/favorites/${pokemonId}`, {
+      const response = await fetch(`https://pokeguide.onrender.com/favorites/${pokemonId}`, {
         method: "DELETE",
       });
 

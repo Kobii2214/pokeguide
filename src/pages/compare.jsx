@@ -81,7 +81,7 @@ function Compare() {
     setWinner(battleWinner);
 
     const now = new Date().toISOString();
-    fetch("http://localhost:3001/battles", {
+    fetch("https://pokeguide.onrender.com/battles", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

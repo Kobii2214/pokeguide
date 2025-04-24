@@ -80,7 +80,7 @@ const Pokemon = () => {
 
   const fetchFavorites = async () => {
     try {
-      const response = await fetch("http://localhost:3001/favorites");
+      const response = await fetch("https://pokeguide.onrender.com/favorites");
       const data = await response.json();
       setFavorites(data);
     } catch (err) {
@@ -90,7 +90,7 @@ const Pokemon = () => {
 
   const fetchTeam = async () => {
     try {
-      const response = await fetch("http://localhost:3001/team");
+      const response = await fetch("https://pokeguide.onrender.com/team");
       const data = await response.json();
       setTeam(data);
     } catch (err) {
@@ -109,7 +109,7 @@ const Pokemon = () => {
       const favoriteToRemove = favorites.find((fav) => fav.pokeId === pokemon.id);
 
       try {
-        const response = await fetch(`http://localhost:3001/favorites/${favoriteToRemove.id}`, {
+        const response = await fetch(`https://pokeguide.onrender.com/favorites/${favoriteToRemove.id}`, {
           method: "DELETE",
         });
 
@@ -132,7 +132,7 @@ const Pokemon = () => {
       };
 
       try {
-        const response = await fetch("http://localhost:3001/favorites", {
+        const response = await fetch("https://pokeguide.onrender.com/favorites", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -158,7 +158,7 @@ const Pokemon = () => {
       const teamToRemove = team.find((poke) => poke.pokeId === pokemon.id);
   
       try {
-        const response = await fetch(`http://localhost:3001/team/${teamToRemove.id}`, {
+        const response = await fetch(`https://pokeguide.onrender.com/team/${teamToRemove.id}`, {
           method: "DELETE",
         });
   
@@ -178,7 +178,7 @@ const Pokemon = () => {
         };
   
         try {
-          const response = await fetch("http://localhost:3001/team", {
+          const response = await fetch("https://pokeguide.onrender.com/team", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
